@@ -85,3 +85,18 @@ Access the dashboard
 
 http://localhost:8080/dashboard
 
+🧮 Future Enhancements
+
+📊 Add analytics for incident trends by date, type, and region.
+
+🔔 Add email/SMS notifications for critical severity incidents.
+
+📱 Develop a React or Android frontend for user-side reporting.
+
+🧠 Integrate ML model for risk prediction in unsafe zones.
+
+🧑‍💼 Author
+
+Vivek Yadav
+Backend Developer | Java | Spring Boot | MySQL | AWS
+🌐 GitHub
