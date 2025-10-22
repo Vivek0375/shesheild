@@ -85,9 +85,3 @@ Access the dashboard
 
 http://localhost:8080/dashboard
 
-🧭 API Endpoints
-Endpoint	Method	Description
-/api/incidents	GET	Get all incidents (JSON format)
-/api/incidents/{id}	GET	Get incident by ID
-/api/incidents	POST	Create a new incident
-/dashboard	GET	View Thymeleaf dashboard
