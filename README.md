@@ -96,12 +96,6 @@ http://localhost:8080/dashboard
 🧠 Integrate ML model for risk prediction in unsafe zones.
 
 
-## 🖥️ Live Dashboard Preview:
-
-![SheShield Dashboard](https://github.com/Vivek0375/shesheild/blob/5a1521c156e06431dfda6158514aa0e2a199e521/Screenshot%202025-10-22%20162734.png?raw=true)
-> The dashboard displays real-time incident data with Google Maps integration and auto-refresh.
-
----
 
 ## 📜 License:
 
