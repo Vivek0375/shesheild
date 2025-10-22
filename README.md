@@ -23,3 +23,13 @@ Auto-refresh every 10 seconds to keep data updated.
 Filter incidents by severity, type, and date range.
 
 Generate JSON reports for frontend visualization or analytics.
+
+
+🧩 Tech Stack
+Layer	Technology
+Backend	Java 17, Spring Boot, Spring MVC, Spring Data JPA
+Frontend	Thymeleaf, HTML5, CSS3, JavaScript (ES6)
+Database	MySQL
+Visualization	Google Maps JavaScript API
+Build Tool	Maven
+Others	Lombok, JPA, Validation API
