@@ -40,7 +40,8 @@ Others	Lombok, JPA, Validation API
 ![project Structure  Screenshot](https://github.com/Vivek0375/shesheild/blob/5a1521c156e06431dfda6158514aa0e2a199e521/Screenshot%202025-10-22%20162734.png?raw=true)
 
 
-⚙️ Setup & Run Locally
+⚙️ Setup & Run Locally:
+
 Prerequisites
 
 Java 17+
@@ -51,7 +52,7 @@ MySQL running locally
 
 Google Maps API key
 
-Steps
+Steps:
 
 Clone the repo
 
