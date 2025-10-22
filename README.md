@@ -33,3 +33,31 @@ Database	MySQL
 Visualization	Google Maps JavaScript API
 Build Tool	Maven
 Others	Lombok, JPA, Validation API
+
+
+🗂️ Project Structure
+
+SheShield/
+│
+├── src/
+│   ├── main/
+│   │   ├── java/com/steptowardprotection/sheshield/
+│   │   │   ├── controller/
+│   │   │   │   ├── IncidentController.java
+│   │   │   │   ├── IncidentDashboardController.java
+│   │   │   │
+│   │   │   ├── model/
+│   │   │   ├── repository/
+│   │   │   ├── service/
+│   │   │   └── SheShieldApplication.java
+│   │   │
+│   │   └── resources/
+│   │       ├── templates/
+│   │       │   └── dashboard.html
+│   │       ├── application.properties
+│   │       └── static/
+│   │
+│   └── test/
+│
+├── pom.xml
+└── README.md
