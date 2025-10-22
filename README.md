@@ -85,7 +85,7 @@ Access the dashboard
 
 http://localhost:8080/dashboard
 
-🧮 Future Enhancements
+🧮 Future Enhancements:
 
 📊 Add analytics for incident trends by date, type, and region.
 
@@ -95,8 +95,9 @@ http://localhost:8080/dashboard
 
 🧠 Integrate ML model for risk prediction in unsafe zones.
 
-🧑‍💼 Author
+🧑‍💼 Author:
 
 Vivek Yadav
+
 Backend Developer | Java | Spring Boot | MySQL | AWS
-🌐 GitHub
+
