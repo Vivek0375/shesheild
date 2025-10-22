@@ -38,3 +38,55 @@ Others	Lombok, JPA, Validation API
 🗂️ Project Structure
 
 ![project Structure  Screenshot](https://github.com/Vivek0375/shesheild/blob/5a1521c156e06431dfda6158514aa0e2a199e521/Screenshot%202025-10-22%20162734.png?raw=true)
+
+
+⚙️ Setup & Run Locally
+Prerequisites
+
+Java 17+
+
+Maven 3+
+
+MySQL running locally
+
+Google Maps API key
+
+Steps
+
+Clone the repo
+
+git clone https://github.com/<your-username>/SheShield.git
+cd SheShield
+
+
+Configure MySQL
+Update src/main/resources/application.properties:
+
+spring.datasource.url=jdbc:mysql://localhost:3306/sheshield_db
+spring.datasource.username=root
+spring.datasource.password=yourpassword
+spring.jpa.hibernate.ddl-auto=update
+spring.thymeleaf.prefix=classpath:/templates/
+
+
+Add Google Maps API key
+In dashboard.html, replace:
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY"></script>
+
+
+Build and run
+
+mvn spring-boot:run
+
+
+Access the dashboard
+
+http://localhost:8080/dashboard
+
+🧭 API Endpoints
+Endpoint	Method	Description
+/api/incidents	GET	Get all incidents (JSON format)
+/api/incidents/{id}	GET	Get incident by ID
+/api/incidents	POST	Create a new incident
+/dashboard	GET	View Thymeleaf dashboard
